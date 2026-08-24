@@ -1,0 +1,370 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+<!-- ==========================================================
+                        HERO SECTION
+========================================================== -->
+
+<section class="hero">
+
+    <div class="container">
+
+        <div class="row align-items-center">
+
+            <!-- ==================================================
+                            LEFT SIDE
+            ================================================== -->
+
+            <div class="col-lg-7">
+
+                <h5 class="text-primary mb-3">
+                    👋 Hello, I'm
+                </h5>
+
+                <h1>
+                    Sonu Lodhi
+                </h1>
+
+                <h3>
+                    Python & Django Developer
+                </h3>
+
+                <p>
+                    I build modern, responsive and user-friendly web
+                    applications using Python, Django, HTML, CSS,
+                    JavaScript, Bootstrap and Django REST Framework.
+                </p>
+
+
+                <!-- ================= SKILLS ================= -->
+
+                <div class="home-skills mt-4">
+
+                    <span class="badge bg-primary">
+                        Python
+                    </span>
+
+                    <span class="badge bg-success">
+                        Django
+                    </span>
+
+                    <span class="badge bg-warning text-dark">
+                        Bootstrap
+                    </span>
+
+                    <span class="badge bg-danger">
+                        JavaScript
+                    </span>
+
+                    <span class="badge bg-info text-dark">
+                        HTML
+                    </span>
+
+                    <span class="badge bg-secondary">
+                        CSS
+                    </span>
+
+                </div>
+
+
+                <!-- ==================================================
+                            MAIN BUTTONS
+                ================================================== -->
+
+                <div class="home-main-buttons mt-5">
+
+                    <a href="{% url 'projects' %}"
+                       class="btn btn-primary btn-lg me-3">
+
+                        View Projects
+
+                    </a>
+
+                    <a href="{% url 'contact' %}"
+                       class="btn btn-outline-dark btn-lg">
+
+                        Contact Me
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- ==================================================
+                            RIGHT SIDE
+            ================================================== -->
+
+            <div class="col-lg-5 text-center">
+
+                <!-- ================= PROFILE PHOTO ================= -->
+
+                <div class="home-profile-wrapper">
+
+                    <img
+                        src="{% static 'website/images/profile.jpg' %}"
+                        alt="Sonu Lodhi Profile Photo"
+                        width="150"
+                        height="150"
+                        style="
+                            width:150px;
+                            height:150px;
+                            object-fit:cover;
+                            border-radius:50%;
+                            display:block;
+                            margin:0 auto;
+                        "
+                    >
+
+                </div>
+
+
+                <!-- ==================================================
+                            SOCIAL MEDIA BUTTONS
+                ================================================== -->
+
+                <div class="social-buttons mt-4">
+
+                    <!-- LINKEDIN -->
+
+                    <a
+                        href="https://www.linkedin.com/in/sonu-lodhi-a5442a2b5/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="social-btn linkedin-btn"
+                    >
+                        🔗 LinkedIn
+                    </a>
+
+
+                    <!-- GITHUB -->
+
+                    <a
+                        href="https://github.com/mrsonu121"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="social-btn github-btn"
+                    >
+                        💻 GitHub
+                    </a>
+
+
+                    <!-- INSTAGRAM -->
+
+                    <a
+                        href="https://www.instagram.com/mr.sonu121?igsh=Z3ZodGx3NmJreThw&igsi=Z3ZodGx3NmJreThw"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="social-btn instagram-btn"
+                    >
+                        📸 Instagram
+                    </a>
+
+                </div>
+
+
+                <!-- ==================================================
+                            CURRENTLY LEARNING
+                ================================================== -->
+
+                <div class="learning-box mt-4">
+
+                    🚀 Currently Learning
+
+                    <strong>
+                        Django & Django REST Framework
+                    </strong>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ==========================================================
+                        ABOUT ME SECTION
+========================================================== -->
+
+<section class="py-5 bg-light">
+
+    <div class="container">
+
+        <div class="row justify-content-center">
+
+            <div class="col-lg-9">
+
+                <div class="card shadow-sm">
+
+                    <div class="card-body p-5 text-center">
+
+                        <h2 class="text-primary mb-4">
+                            👨‍💻 About Me
+                        </h2>
+
+                        <p>
+                            Hello! I'm <strong>Sonu Lodhi</strong> i am a software developer <strong>if you need any your business website and other websites and 
+                                aplications you can contact me and I will make your website and applications with the best quality and best price
+                            </strong>.
+                        </p>
+
+                        <p class="mb-0">
+                            🎯 i am  a professional
+                            <strong>Full Stack Python Developer</strong>
+                            and build useful applications that solve
+                            real-world problems.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ==========================================================
+                        WHAT I DO
+========================================================== -->
+
+<section class="py-5">
+
+    <div class="container">
+
+        <h2 class="text-center text-primary mb-5">
+            💼 What I Do
+        </h2>
+
+        <div class="row g-4">
+
+            <!-- Python -->
+
+            <div class="col-md-4">
+
+                <div class="card h-100 shadow-sm text-center">
+
+                    <div class="card-body p-4">
+
+                        <div class="display-4 mb-3">
+                            🐍
+                        </div>
+
+                        <h4>
+                            Python Development
+                        </h4>
+
+                        <p>
+                            Developing clean and efficient applications
+                            using Python programming.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Django -->
+
+            <div class="col-md-4">
+
+                <div class="card h-100 shadow-sm text-center">
+
+                    <div class="card-body p-4">
+
+                        <div class="display-4 mb-3">
+                            🌐
+                        </div>
+
+                        <h4>
+                            Django Development
+                        </h4>
+
+                        <p>
+                            Building secure and scalable web applications
+                            using Django framework.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- API -->
+
+            <div class="col-md-4">
+
+                <div class="card h-100 shadow-sm text-center">
+
+                    <div class="card-body p-4">
+
+                        <div class="display-4 mb-3">
+                            🔌
+                        </div>
+
+                        <h4>
+                            REST API Development
+                        </h4>
+
+                        <p>
+                            Creating APIs using Django REST Framework
+                            for modern web and mobile applications.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ==========================================================
+                        CALL TO ACTION
+========================================================== -->
+
+<section class="py-5 bg-light">
+
+    <div class="container text-center">
+
+        <h2 class="text-primary">
+            🚀 Let's Work Together
+        </h2>
+
+        <p class="lead mt-3">
+            Have a project idea or want to work together?
+        </p>
+
+        <a href="{% url 'contact' %}"
+           class="btn btn-primary btn-lg mt-3">
+
+            Contact Me
+
+        </a>
+
+    </div>
+
+</section>
+
+
+{% endblock %}
