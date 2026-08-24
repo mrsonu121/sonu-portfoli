@@ -1,0 +1,687 @@
+/* ==========================================================
+                        BODY
+========================================================== */
+
+body {
+    background: #f8f9fa;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ==========================================================
+                        NAVBAR
+========================================================== */
+
+.navbar {
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.navbar .nav-link {
+    margin-left: 12px;
+    font-size: 17px;
+    transition: 0.3s;
+}
+
+.navbar .nav-link:hover {
+    color: #0d6efd !important;
+}
+
+
+/* ==========================================================
+                        HERO SECTION
+========================================================== */
+
+.hero {
+    padding: 80px 0;
+}
+
+.hero h1 {
+    font-size: 60px;
+    color: #212529;
+    font-weight: bold;
+}
+
+.hero h3 {
+    color: #5f6f82;
+    margin-top: 15px;
+}
+
+.hero h5 {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.hero p {
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #555;
+}
+
+
+/* ==========================================================
+                        SKILL BADGES
+========================================================== */
+
+.badge {
+    font-size: 15px;
+    padding: 10px 15px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+}
+
+
+/* ==========================================================
+                    GENERAL BUTTONS
+========================================================== */
+
+.btn {
+    border-radius: 10px;
+    padding: 12px 28px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+}
+
+
+/* ==========================================================
+                    HOME MAIN BUTTONS
+========================================================== */
+
+.home-main-buttons {
+    margin-top: 35px;
+}
+
+.home-main-buttons .btn {
+    min-width: 170px;
+    margin-bottom: 10px;
+}
+
+
+/* VIEW PROJECTS BUTTON */
+
+.home-main-buttons .btn-primary {
+    background: linear-gradient(135deg, #0d6efd, #0056d6);
+    border: none;
+    color: white;
+    box-shadow: 0 8px 20px rgba(13, 110, 253, 0.25);
+}
+
+.home-main-buttons .btn-primary:hover {
+    background: linear-gradient(135deg, #0056d6, #0043a8);
+    transform: translateY(-4px);
+    box-shadow: 0 12px 25px rgba(13, 110, 253, 0.35);
+}
+
+
+/* CONTACT ME BUTTON */
+
+.home-main-buttons .btn-outline-dark {
+    background: white;
+    border: 2px solid #212529;
+    color: #212529;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+.home-main-buttons .btn-outline-dark:hover {
+    background: #212529;
+    color: white;
+    border-color: #212529;
+    transform: translateY(-4px);
+    box-shadow: 0 10px 22px rgba(0, 0, 0, 0.20);
+}
+
+
+/* ==========================================================
+                    PROFILE PHOTO
+========================================================== */
+
+.home-profile-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-profile-wrapper img {
+    width: 150px !important;
+    height: 150px !important;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border: 5px solid white;
+
+    box-shadow:
+        0 8px 25px rgba(0, 0, 0, 0.18);
+
+    transition: all 0.3s ease;
+}
+
+.home-profile-wrapper img:hover {
+    transform: scale(1.05);
+
+    box-shadow:
+        0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+
+/* ==========================================================
+                    SOCIAL MEDIA BUTTONS
+========================================================== */
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+
+    flex-wrap: wrap;
+}
+
+
+/* COMMON SOCIAL BUTTON */
+
+.social-btn {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    min-width: 110px;
+
+    padding: 10px 16px;
+
+    border-radius: 8px;
+
+    text-decoration: none;
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+    color: white;
+
+    border: none;
+
+    transition: all 0.3s ease;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+}
+
+
+/* LINKEDIN */
+
+.linkedin-btn {
+    background: #0a66c2;
+}
+
+.linkedin-btn:hover {
+    background: #084f96;
+
+    color: white;
+
+    transform: translateY(-4px);
+
+    box-shadow: 0 9px 20px rgba(10, 102, 194, 0.35);
+}
+
+
+/* GITHUB */
+
+.github-btn {
+    background: #24292f;
+}
+
+.github-btn:hover {
+    background: #000000;
+
+    color: white;
+
+    transform: translateY(-4px);
+
+    box-shadow: 0 9px 20px rgba(0, 0, 0, 0.35);
+}
+
+
+/* INSTAGRAM */
+
+.instagram-btn {
+    background: linear-gradient(
+        45deg,
+        #feda75,
+        #fa7e1e,
+        #d62976,
+        #962fbf,
+        #4f5bd5
+    );
+}
+
+.instagram-btn:hover {
+    color: white;
+
+    transform: translateY(-4px);
+
+    box-shadow: 0 9px 20px rgba(214, 41, 118, 0.35);
+}
+
+
+/* ==========================================================
+                    CURRENTLY LEARNING BOX
+========================================================== */
+
+.learning-box {
+    display: inline-block;
+
+    padding: 14px 20px;
+
+    background: white;
+
+    border-radius: 10px;
+
+    border: 1px solid #e1e1e1;
+
+    color: #333;
+
+    font-size: 16px;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.07);
+
+    transition: all 0.3s ease;
+}
+
+.learning-box:hover {
+    transform: translateY(-3px);
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.learning-box strong {
+    color: #0d6efd;
+}
+
+
+/* ==========================================================
+                        CARDS
+========================================================== */
+
+.card {
+    border: none;
+
+    border-radius: 15px;
+
+    transition: all 0.3s ease;
+
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-7px);
+
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card-body {
+    padding: 30px;
+}
+
+.card h1 {
+    font-size: 55px;
+}
+
+.card h3 {
+    font-weight: bold;
+}
+
+.card h4 {
+    margin-top: 15px;
+
+    font-weight: bold;
+}
+
+.card p {
+    margin-top: 15px;
+
+    color: #666;
+
+    line-height: 28px;
+}
+
+
+/* ==========================================================
+                    SECTION TITLE
+========================================================== */
+
+section h2 {
+    color: #0d6efd;
+
+    margin-bottom: 35px;
+
+    font-weight: 700;
+}
+
+
+/* ==========================================================
+                    ABOUT PAGE
+========================================================== */
+
+.profile-icon {
+    width: 260px;
+    height: 260px;
+
+    background: #ffffff;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    margin: auto;
+
+    font-size: 150px;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+/* ==========================================================
+                    PROGRESS BARS
+========================================================== */
+
+.progress {
+    height: 24px;
+
+    border-radius: 30px;
+
+    background: #ddd;
+
+    overflow: hidden;
+}
+
+.progress-bar {
+    font-weight: bold;
+
+    transition: width 1s ease;
+}
+
+
+/* ==========================================================
+                    LIST GROUP
+========================================================== */
+
+.list-group-item {
+    font-size: 17px;
+
+    padding: 15px 20px;
+}
+
+
+/* ==========================================================
+                    PROJECT BUTTONS
+========================================================== */
+
+.card .btn {
+    margin-right: 8px;
+
+    margin-top: 8px;
+}
+
+
+/* ==========================================================
+                        FOOTER
+========================================================== */
+
+footer {
+    background: #212529;
+
+    color: white;
+}
+
+footer h4 {
+    font-weight: bold;
+
+    margin-bottom: 20px;
+}
+
+.footer-link {
+    color: white;
+
+    text-decoration: none;
+
+    display: block;
+
+    margin-bottom: 10px;
+
+    transition: all 0.3s ease;
+}
+
+.footer-link:hover {
+    color: #0d6efd;
+
+    padding-left: 5px;
+}
+
+footer p {
+    color: #ddd;
+
+    line-height: 28px;
+}
+
+
+/* ==========================================================
+                    FOOTER SOCIAL BUTTONS
+========================================================== */
+
+footer .social-btn {
+    margin-right: 5px;
+
+    margin-bottom: 5px;
+}
+
+
+/* ==========================================================
+                    RESPONSIVE - TABLET
+========================================================== */
+
+@media (max-width: 992px) {
+
+    .hero {
+        text-align: center;
+
+        padding: 60px 0;
+    }
+
+    .hero h1 {
+        font-size: 48px;
+    }
+
+    .hero h3 {
+        font-size: 26px;
+    }
+
+    .hero p {
+        font-size: 17px;
+    }
+
+    .home-profile-wrapper {
+        margin-top: 50px;
+    }
+
+    .profile-icon {
+        width: 220px;
+
+        height: 220px;
+
+        font-size: 120px;
+
+        margin-bottom: 30px;
+    }
+
+    .home-main-buttons {
+        margin-top: 35px;
+    }
+}
+
+
+/* ==========================================================
+                    RESPONSIVE - MOBILE
+========================================================== */
+
+@media (max-width: 768px) {
+
+    .hero {
+        padding: 45px 0;
+
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+    }
+
+    .hero h3 {
+        font-size: 23px;
+    }
+
+    .hero h5 {
+        font-size: 22px;
+    }
+
+    .hero p {
+        font-size: 16px;
+
+        line-height: 27px;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar .nav-link {
+        margin-left: 0;
+
+        padding: 10px;
+    }
+
+
+    /* Profile */
+
+    .home-profile-wrapper img {
+        width: 130px !important;
+
+        height: 130px !important;
+    }
+
+
+    /* Social buttons */
+
+    .social-buttons {
+        gap: 8px;
+    }
+
+    .social-btn {
+        min-width: 100px;
+
+        padding: 9px 12px;
+
+        font-size: 14px;
+    }
+
+
+    /* Main buttons */
+
+    .home-main-buttons {
+        margin-top: 30px;
+    }
+
+    .home-main-buttons .btn {
+        width: 100%;
+
+        margin: 7px 0;
+
+        display: block;
+    }
+
+
+    /* Learning */
+
+    .learning-box {
+        font-size: 14px;
+
+        line-height: 25px;
+
+        max-width: 95%;
+    }
+
+
+    /* About profile */
+
+    .profile-icon {
+        width: 180px;
+
+        height: 180px;
+
+        font-size: 100px;
+    }
+
+
+    /* General buttons */
+
+    .btn {
+        width: auto;
+
+        margin-top: 8px;
+    }
+
+}
+
+
+/* ==========================================================
+                    VERY SMALL MOBILE
+========================================================== */
+
+@media (max-width: 480px) {
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .hero h3 {
+        font-size: 20px;
+    }
+
+    .home-profile-wrapper img {
+        width: 120px !important;
+
+        height: 120px !important;
+    }
+
+    .social-btn {
+        min-width: 95px;
+
+        font-size: 13px;
+
+        padding: 8px 10px;
+    }
+
+    .card-body {
+        padding: 22px;
+    }
+
+}
